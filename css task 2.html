@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: rgb(40, 54, 150);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+    color: aliceblue;
+  background-color: #222322;
+}
+</style>
+</head>
+<body>
+    <p><b>Horizantal Navigation bar</b></p>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#java">JAVA</a></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="#css">CSS</a></li>
+  <li><a href="#contact"></a></li>
+</ul>
+
+</body>
+</html>
+<!--<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #4caae9;
+}
+
+
+li a {
+  display: block;
+  color: #1a0765;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li  a.active {
+  background-color: #fa4a22;
+  color: rgb(77, 63, 155);
+}
+
+li a:hover {
+  background-color: #297190;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Vertical Navigation Bar</h2>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#java">Java</a></li>
+  <li><a href="#css">CSS</a></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="#bootstap">Bootstap</a></li>
+</ul>
+
+
+
+
+
+
+
+</body>
+</html>
